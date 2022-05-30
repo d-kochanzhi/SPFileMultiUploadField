@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">FileMultiUploadField</Field>
+    <Field Name="TypeDisplayName">Загрузка файлов(менеджер)</Field>
+    <Field Name="TypeShortDescription">Загрузка файлов в библиотеку (менеджер)</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowInListCreate">TRUE</Field>
+    <Field Name="ShowInSurveyCreate">TRUE</Field>
+    <Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">FileMultiUploadField.FileMultiUploadField, $SharePoint.Project.AssemblyFullName$</Field>
+    <Field Name="FieldEditorUserControl">~/_CONTROLTEMPLATES/15/FileMultiUploadFieldEditControl.ascx</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Name="UploadDocumentLibrary" DisplayName="Выберите библиотеку документов" Type="Text" Hidden="True"/>
+        <Field Name="UseIDasFolder" DisplayName="Использовать ИД как папку" Type="Boolean" Hidden="True"/>
+        <Field Name="UseElevatedPrivileges" DisplayName="Использовать ElevatedPrivileges" Type="Boolean" Hidden="True"/>
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>

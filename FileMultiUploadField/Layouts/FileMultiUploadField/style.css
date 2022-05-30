@@ -1,0 +1,81 @@
+﻿/*
+    https://parallelcodes.com/styling-the-gridview-in-asp-net/
+*/
+.FilesContainer {
+    width: 80%;
+    border: none;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #6a6a6a;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.rows {
+    border: none;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+}
+
+    .rows:hover {
+        background-color: #f1f1f1;
+        color: #000;
+    }
+
+.FilesContainer a /** FOR THE PAGING ICONS **/ {
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+    .FilesContainer a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        color: #000;
+    }
+
+.FilesContainer span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    padding: 5px 5px 5px 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.pager {
+    background-color: #fadd7a;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.FilesContainer td {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+}
+
+.FilesContainer th {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    text-align: left;
+}
+
+
+
+.delete_icon {
+    display: block;
+    background: url(/_layouts/15/FileMultiUploadField/delete-icon-black.png) no-repeat;
+    background-size: 13px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: none;
+    background-position: center;
+}

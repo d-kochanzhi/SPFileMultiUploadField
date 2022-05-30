@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f6062671-4f50-4ceb-8f62-abaf4f9b3b8d" solutionId="f6062671-4f50-4ceb-8f62-abaf4f9b3b8d" resetWebServer="false" sharePointProductVersion="16.0" name="FileMultiUploadField" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="8c9a3c67-f3ef-4f58-a782-85fbdf079054" />
+    <projectItemReference itemId="2d56f69c-9e91-4bf5-ab76-7d6b6ef6e765" />
+    <projectItemReference itemId="0aca6012-5bdc-4106-81f7-b8f979fda010" />
+  </projectItems>
+</package>
